@@ -7950,6 +7950,11 @@ PrefabInstance:
       propertyPath: checkpoints.Array.data[3]
       value: 
       objectReference: {fileID: 980867891}
+    - target: {fileID: 9084884021648134801, guid: 1a27545505a30d6479abf78847244a72,
+        type: 3}
+      propertyPath: raceLapTotal
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 9084884021648134802, guid: 1a27545505a30d6479abf78847244a72,
         type: 3}
       propertyPath: m_Name
@@ -9692,7 +9697,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175779212}
-  m_LocalRotation: {x: 0.038215775, y: 0.0000000019252313, z: -0.00000049926894, w: 0.99926955}
+  m_LocalRotation: {x: 0.038215775, y: 0.0000000019252278, z: -0.00000049926894, w: 0.99926955}
   m_LocalPosition: {x: 16, y: 2.05, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -17122,7 +17127,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110853102}
-  m_LocalRotation: {x: 0.038215775, y: 0.0000000019252313, z: -0.00000049926894, w: 0.99926955}
+  m_LocalRotation: {x: 0.038215775, y: 0.0000000019252278, z: -0.00000049926894, w: 0.99926955}
   m_LocalPosition: {x: 16, y: 2.05, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -18041,6 +18046,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 876742143, guid: 7f02e158c0e4d4ab09f78bb31f78bab8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2550566963638454825, guid: 7f02e158c0e4d4ab09f78bb31f78bab8,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -18050,6 +18059,24 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550566963638454825, guid: 7f02e158c0e4d4ab09f78bb31f78bab8,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        - Arrow keys to Move
+
+        - Space bar to Jump
+
+        - Hold the Space bar to Drift
+
+        - Press the R key to Reset the Kart if you get stuck
+
+
+        - Press Escape to unpause and start playing!
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 2722743759761485157, guid: 7f02e158c0e4d4ab09f78bb31f78bab8,
         type: 3}
@@ -18255,6 +18282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009130065942123197, guid: 7f02e158c0e4d4ab09f78bb31f78bab8,
+        type: 3}
+      propertyPath: m_text
+      value: Controls
       objectReference: {fileID: 0}
     - target: {fileID: 4858264529848534282, guid: 7f02e158c0e4d4ab09f78bb31f78bab8,
         type: 3}
